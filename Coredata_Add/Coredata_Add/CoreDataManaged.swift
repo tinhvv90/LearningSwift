@@ -27,9 +27,6 @@ class CoreDataManaged: NSObject {
         let managedObj = NSManagedObject(entity: entity!, insertInto: context)
         
         managedObj.setValue("Nguyen Van An", forKey: "fullname")
-        managedObj.setValue("an@gmail.com", forKey: "email")
-        managedObj.setValue("annv", forKey: "username")
-        managedObj.setValue("1234", forKey: "password")
         
         do {
             try context.save()
