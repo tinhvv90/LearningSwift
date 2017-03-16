@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		3B147FA01E6E4A8A00ECA083 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B147F9F1E6E4A8A00ECA083 /* AppDelegate.swift */; };
-		3B147FA21E6E4A8A00ECA083 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B147FA11E6E4A8A00ECA083 /* ViewController.swift */; };
 		3B147FA51E6E4A8A00ECA083 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B147FA31E6E4A8A00ECA083 /* Main.storyboard */; };
 		3B147FA81E6E4A8A00ECA083 /* Coredata_Add.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3B147FA61E6E4A8A00ECA083 /* Coredata_Add.xcdatamodeld */; };
 		3B147FAA1E6E4A8A00ECA083 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B147FA91E6E4A8A00ECA083 /* Assets.xcassets */; };
 		3B147FAD1E6E4A8A00ECA083 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B147FAB1E6E4A8A00ECA083 /* LaunchScreen.storyboard */; };
 		3B147FB81E6E4A8A00ECA083 /* Coredata_AddTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B147FB71E6E4A8A00ECA083 /* Coredata_AddTests.swift */; };
 		3B147FC31E6E4A8A00ECA083 /* Coredata_AddUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B147FC21E6E4A8A00ECA083 /* Coredata_AddUITests.swift */; };
+		3B147FD31E6E638F00ECA083 /* CoreDataManaged.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B147FD21E6E638F00ECA083 /* CoreDataManaged.swift */; };
+		3B1A731B1E6E712E00D96E90 /* AddPersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1A731A1E6E712E00D96E90 /* AddPersonViewController.swift */; };
+		3B1A731F1E6E751F00D96E90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1A731E1E6E751F00D96E90 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +39,6 @@
 /* Begin PBXFileReference section */
 		3B147F9C1E6E4A8A00ECA083 /* Coredata_Add.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coredata_Add.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B147F9F1E6E4A8A00ECA083 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3B147FA11E6E4A8A00ECA083 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3B147FA41E6E4A8A00ECA083 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B147FA71E6E4A8A00ECA083 /* Coredata_Add.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Coredata_Add.xcdatamodel; sourceTree = "<group>"; };
 		3B147FA91E6E4A8A00ECA083 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +50,9 @@
 		3B147FBE1E6E4A8A00ECA083 /* Coredata_AddUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Coredata_AddUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B147FC21E6E4A8A00ECA083 /* Coredata_AddUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coredata_AddUITests.swift; sourceTree = "<group>"; };
 		3B147FC41E6E4A8A00ECA083 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B147FD21E6E638F00ECA083 /* CoreDataManaged.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManaged.swift; sourceTree = "<group>"; };
+		3B1A731A1E6E712E00D96E90 /* AddPersonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPersonViewController.swift; sourceTree = "<group>"; };
+		3B1A731E1E6E751F00D96E90 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +104,9 @@
 			isa = PBXGroup;
 			children = (
 				3B147F9F1E6E4A8A00ECA083 /* AppDelegate.swift */,
-				3B147FA11E6E4A8A00ECA083 /* ViewController.swift */,
+				3B1A731A1E6E712E00D96E90 /* AddPersonViewController.swift */,
+				3B147FD21E6E638F00ECA083 /* CoreDataManaged.swift */,
+				3B1A731E1E6E751F00D96E90 /* ViewController.swift */,
 				3B147FA31E6E4A8A00ECA083 /* Main.storyboard */,
 				3B147FA91E6E4A8A00ECA083 /* Assets.xcassets */,
 				3B147FAB1E6E4A8A00ECA083 /* LaunchScreen.storyboard */,
@@ -262,9 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B147FA21E6E4A8A00ECA083 /* ViewController.swift in Sources */,
+				3B1A731F1E6E751F00D96E90 /* ViewController.swift in Sources */,
+				3B147FD31E6E638F00ECA083 /* CoreDataManaged.swift in Sources */,
 				3B147FA01E6E4A8A00ECA083 /* AppDelegate.swift in Sources */,
 				3B147FA81E6E4A8A00ECA083 /* Coredata_Add.xcdatamodeld in Sources */,
+				3B1A731B1E6E712E00D96E90 /* AddPersonViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +517,7 @@
 				3B147FC91E6E4A8A00ECA083 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B147FCA1E6E4A8A00ECA083 /* Build configuration list for PBXNativeTarget "Coredata_AddTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +526,7 @@
 				3B147FCC1E6E4A8A00ECA083 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B147FCD1E6E4A8A00ECA083 /* Build configuration list for PBXNativeTarget "Coredata_AddUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +535,7 @@
 				3B147FCF1E6E4A8A00ECA083 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
